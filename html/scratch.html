@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css" />
+    <title></title>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h2>Tip Calculator</h2>
+    </header>
+    <main>
+        how match is you bill?
+        <p></p>
+        <label for="billInput">$</label>
+        <input id="billInput" type="number" min="0"/>
+        <p></p>
+        how was your service?<p></p>
+        <select name="service" id="service" >
+            <option value="" disabled selected>Select you option</option>
+            <option value="outstanding">Outstanding - 30%</option>
+            <option value="good">Good - 20%</option>
+            <option value="ok">OK - 15%</option>
+            <option value="bad">Bad - 10%</option>
+            <option value="trrible">Trrible - 5%</option>
+        </select>
+        <p></p>
+        How many people are sharing the bill?<br>
+        <input id="peopleAmount" type="number" min="1"> people
+        <p></p>
+        <button id="calculate">CALCULATE</button>
+    </main>
+</div>
+
+</body>
+</html>
