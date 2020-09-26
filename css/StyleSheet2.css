@@ -1,4 +1,9 @@
 .container {
-    margin:auto;
-    max-width: 500px;
+width: 20%;
+  margin: 0 auto;
+  background-color:antiquewhite;
 }
+body{
+    background-color:aliceblue;
+}
+
