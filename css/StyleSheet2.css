@@ -28,6 +28,8 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    background-color: darkblue;
+    color: white;
 }
 
 #peopleAmount{
