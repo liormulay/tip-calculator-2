@@ -1,3 +1,7 @@
+body {
+    background-color: aliceblue;
+}
+
 .container {
     width:15%;
     margin: 0 auto;
@@ -5,7 +9,34 @@
     border-radius: 25px;
     padding: 0 20px 20px 20px;
 }
-body{
-    background-color:aliceblue;
+
+.title {
+    text-align: center;
+    background-color: darkblue;
+    color: aliceblue;
+    box-sizing: border-box;
+    width: calc(100% + 40px);
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    left: -20px;
+    padding: 5px 0 5px 0;
 }
+
+.button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#peopleAmount{
+    margin-right:2px;
+}
+
+#results{
+    height:100px;
+}
+
+
 

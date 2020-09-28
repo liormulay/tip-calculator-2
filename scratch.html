@@ -9,13 +9,13 @@
 <body>
     <div class="container">
         <header>
-            <h2>Tip Calculator</h2>
+            <h3 class="title">Tip Calculator</h3>
         </header>
         <main>
             how much is you bill?
             <p></p>
             <label for="billInput">$</label>
-            <input id="billInput" type="number" min="0" />
+            <input id="billInput" type="number" min="0" placeholder="Bill Amount"/>
             <p></p>
             how was your service?<p></p>
             <select name="service" id="service">
@@ -27,10 +27,10 @@
                 <option value="terrible">Terrible - 5%</option>
             </select>
             <p></p>
-            How many people are sharing the bill?<br>
-            <input id="peopleAmount" type="number" min="1"> people
+            How many people are sharing the bill?<p></p>
+            <input id="peopleAmount" type="number" min="1" placeholder="Number of people"> people
             <p></p>
-            <button id="calculate">CALCULATE</button>
+            <button id="calculate" class="button">CALCULATE</button>
             <div id="results"></div>
         </main>
     </div>
