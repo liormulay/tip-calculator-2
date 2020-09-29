@@ -3,10 +3,13 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+
     <link rel="stylesheet" type="text/css" href="css/StyleSheet2.css"/>
+    <script src="js/tip calculator.js"></script>
     <title></title>
 </head>
-<body>
+
+<body class="grad1" onload="TipCalculator.initModule()">
     <div class="container">
         <header>
             <h3 class="title">Tip Calculator</h3>
@@ -20,11 +23,11 @@
             how was your service?<p></p>
             <select name="service" id="service">
                 <option value="" disabled selected>Select your option</option>
-                <option value="outstanding">Outstanding - 30%</option>
-                <option value="good">Good - 20%</option>
-                <option value="ok">OK - 15%</option>
-                <option value="bad">Bad - 10%</option>
-                <option value="terrible">Terrible - 5%</option>
+                <option value="0.3">Outstanding - 30%</option>
+                <option value="0.2">Good - 20%</option>
+                <option value="0.15">OK - 15%</option>
+                <option value="0.1">Bad - 10%</option>
+                <option value="0.05">Terrible - 5%</option>
             </select>
             <p></p>
             How many people are sharing the bill?<p></p>

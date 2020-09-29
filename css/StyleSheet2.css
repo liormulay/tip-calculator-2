@@ -5,7 +5,7 @@ body {
 .container {
     width:15%;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color: powderblue;
     border-radius: 25px;
     padding: 0 20px 20px 20px;
 }
@@ -40,5 +40,9 @@ body {
     height:100px;
 }
 
+.grad1 {
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, blue,red,yellow);
+}
 
 
