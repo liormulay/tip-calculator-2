@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/StyleSheet2.css"/>
     <script src="js/tip calculator.js"></script>
+    <script src="js/tip calculator results.js"></script>
     <title></title>
 </head>
 
@@ -17,8 +18,8 @@
         <main>
             how much is you bill?
             <p></p>
+            <input id="billInput" type="number" min="0" placeholder="Bill Amount" />
             <label for="billInput">$</label>
-            <input id="billInput" type="number" min="0" placeholder="Bill Amount"/>
             <p></p>
             how was your service?<p></p>
             <select name="service" id="service">
@@ -33,7 +34,7 @@
             How many people are sharing the bill?<p></p>
             <input id="peopleAmount" type="number" min="1" placeholder="Number of people"> people
             <p></p>
-            <button id="calculate" class="button">CALCULATE</button>
+            <button id="calculate">CALCULATE</button>
             <div id="results"></div>
         </main>
     </div>

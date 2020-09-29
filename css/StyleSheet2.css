@@ -10,6 +10,10 @@ body {
     padding: 0 20px 20px 20px;
 }
 
+input,select{
+    width:70%;
+}
+
 .title {
     text-align: center;
     background-color: darkblue;
@@ -23,7 +27,7 @@ body {
     padding: 5px 0 5px 0;
 }
 
-.button {
+#calculate {
     margin: 0;
     position: absolute;
     left: 50%;
@@ -32,12 +36,21 @@ body {
     color: white;
 }
 
-#peopleAmount{
-    margin-right:2px;
+#clear {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-#results{
-    height:100px;
+#peopleAmount {
+    margin-right: 2px;
+}
+
+#results {
+    height: 100px;
+    position: relative;
+    top:30px;
 }
 
 .grad1 {

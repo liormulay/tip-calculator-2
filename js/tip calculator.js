@@ -9,7 +9,15 @@ var TipCalculator = function () {
         var serviceRate = document.getElementById("service").value;
         var peopleAmount = document.getElementById("peopleAmount").value;
         var isValid = validate(billAmount, serviceRate, peopleAmount);
+        if (isValid) {
+            var tip = calculateTip(billAmount, serviceRate, peopleAmount);
+            TipCalculatorResults.initModule(document.getElementById("results"), { tip: tip });
+        }
     };
+
+    function calculateTip(billAmount, serviceRate, peopleAmount) {
+        return billAmount * serviceRate / peopleAmount;
+    }
 
     function validate(billAmount, serviceRate, peopleAmount) {
 
