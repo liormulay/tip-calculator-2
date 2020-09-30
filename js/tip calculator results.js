@@ -15,7 +15,7 @@ var TipCalculatorResults = function () {
     }
 
     function showTip() {
-        document.getElementById("tipDiv").innerHTML = "Your tip is " + tip + "$";
+        document.getElementById("tipDiv").innerHTML = "Your tip is " + tip.toFixed(2) + "$";
     }
 
     return { initModule: initModule };
